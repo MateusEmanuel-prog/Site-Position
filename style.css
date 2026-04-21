@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+}
+
+header {
+    background-color: white;
+    position: sticky;
+    z-index: 99;
+    top: 0;
+}
+
+header>ul>li {
+    display: inline-block;
+    width: 4%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#logo {
+    width: 20%;
+    vertical-align: middle;
+}
+
+#logo img {
+    height: 79.38px;
+    width: 66.81px;
+    margin-top: 15px;
+}
+
+section {
+    color: white;
+    height: 78vh;
+    background-image: url(imagens/header-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+
+#texto-centro hr {
+    margin: 16px 0px;
+    border: none;
+    border-bottom: solid 1px white;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 72px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 10.8px;
+    line-height: 2;
+}
+
+#texto-centro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    font: 18px;
+    margin: 0px 0px 16px;
+    padding: 8px 0px 0px;
+
+}
+
+.DailyFood h1 {
+    color: black;
+    margin: 0px 0px 20px;
+    font: 48px "Playfair Display", serif;
+    line-height: 70px;
+}
+
+.DailyFood p {
+    font: 15px "Roboto", sans-serif;
+    color: #777777;
+    margin: 0px 0px 50px;
+    line-height: 30px;
+}
+
+.DailyFood {
+    width: 430px;
+    height: 50vh;
+    display: inline-block;
+    padding: 0px 0px 30px;
+    margin-left: 20%;
+    margin-top: 150px;
+}
+
+.drop { position: relative;}
+
+#dropdown {
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    height: 15vh;
+    top: 100%;
+    padding-top: 10vh;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#dropdown li { height: 5vh;}
+
+.drop:hover #dropdown {
+    opacity: 1;
+    z-index: 99;
+}
+
+#menu-list {
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    font: 15px "Roboto", sans-serif;
+    padding: 120px 0px;
+    background-color: #FAF5F0;
+    margin-left: 10vh;
+    width: 610px;
+    height: 1040px;
+}
+
+.single-menu h3 {
+    color: #000000;
+    font: 21px "Playfair Display", serif;
+    margin: 0px 0px 10px;
+    padding: 0px 0px 20px;
+    font-style: italic;
+}
+
+.menu-item {
+    color: #010000;
+    font: 15px "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.legenda1 {
+    color: #777777;
+}
+
+.single-menu hr {
+    margin: 5px;
+    border: none;
+    border-bottom: solid 2px #47474733;
+}
+
+.img1 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-28%, -15%);
+}
+
+.img2 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(3%, -100%);
+}
+
+.img3 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-23%, -115%);
+}
+
+.img4 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(3%, -100%);
+}
